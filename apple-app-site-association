@@ -1,2 +1,1 @@
-{ "applinks": { "details": [ { "appIDs": ["U3W7P9NSWQ.Tonestation.Soundcheck"], "components": [ { "/": "/project/*" },
-          { "/": "/projects/*" } ] } ] } }
+{ "applinks": { "details": [ { "appIDs": ["U3W7P9NSWQ.Tonestation.Soundcheck"], "components": [ { "/": "/project/*" } ] } ] } }
