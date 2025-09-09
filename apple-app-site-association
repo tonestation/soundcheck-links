@@ -1,1 +1,1 @@
-{ "applinks": { "details": [ { "appIDs": ["6748746208.Tonestation.Soundcheck"], "components": [ { "/": "/software/soundcheck/*" } ] } ] } }
+{ "applinks": { "details": [ { "appIDs": ["6748746208.Tonestation.Soundcheck"], "components": [ { "/": "/projects/*" } ] } ] } }
