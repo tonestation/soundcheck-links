@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Soundcheck – Weiterleitung …</title>
+  <script>
+    (function () {
+      // Dein App-Store Link:
+      // Tipp: itms-apps öffnet direkt die App Store App, nicht die Webseite.
+      var appStoreURL = "itms-apps://itunes.apple.com/app/id6748746208";
+      // Falls itms-apps vom Browser blockiert wird, fallback auf https:
+      var appStoreHTTPS = "https://apps.apple.com/us/app/soundcheck/id6748746208";
+
+      try {
+        // Sofort versuchen, die App Store App zu öffnen
+        window.location.replace(appStoreURL);
+        // Sicherheitsnetz: nach 600ms auf die HTTPS-Seite
+        setTimeout(function () { window.location.replace(appStoreHTTPS); }, 600);
+      } catch (e) {
+        window.location.replace(appStoreHTTPS);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <p>Weiterleitung zum App Store … Falls nichts passiert, 
+     <a href="https://apps.apple.com/us/app/soundcheck/id6748746208">hier tippen</a>.
+  </p>
+</body>
+</html>
